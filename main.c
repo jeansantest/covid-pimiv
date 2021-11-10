@@ -7,7 +7,7 @@
 int main()
 {
     int cho;
-    printf("Digite 1 para registrar \nDigite 2 para logar\n\n");
+    printf("Digite 1 para registrar \nDigite 2 para fazer login\n\n");
     scanf("%d", &cho);
     if(cho == 1)
     {
