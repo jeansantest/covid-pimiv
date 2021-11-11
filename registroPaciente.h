@@ -2,7 +2,7 @@
 
 struct pacienteInfo {
     char nome[SIZE];
-    char cpf[SIZE];
+    char cpf[15];
     char telefone[SIZE];
     char rua[SIZE];
     char numero[SIZE];
@@ -10,6 +10,7 @@ struct pacienteInfo {
     char bairro[SIZE];
     char cidade[SIZE];
     char estado[SIZE];
+    char anoNasc[SIZE];
     char dataNasc[SIZE];
     char email[SIZE];
     char dataDiag[SIZE];

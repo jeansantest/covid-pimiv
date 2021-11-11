@@ -31,9 +31,17 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="loginregister.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="loginregister.h" />
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="registroPaciente.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="registroPaciente.h" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
 		</Extensions>

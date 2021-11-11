@@ -21,8 +21,7 @@ void registro()
 
     fclose(log) ;
 
-    printf("\n\nSeu usuario e o seu userid\n");
-    printf("Insira seu usuario e sua senha\n");
+    printf("Cadastro realizado com sucesso!\n");
     printf("\nPressione alguma tecla para continuar...");
     getch();
     system("CLS");
@@ -46,10 +45,11 @@ void registro()
     {
         printf("Logado com sucesso\n");
         logged = 1;
+        system("CLS");
     }
     else {
         system("CLS");
-        printf("Por favor insira corretamente seu user e senha\n");
+        printf("Por favor insira corretamente seu usuario e senha\n");
         logged = 0;
         login();
     }
